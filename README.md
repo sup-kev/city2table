@@ -1,16 +1,13 @@
 # City2Table
 
-BinFind is an innovative app that helps you locate the nearest trash bins in Tokyo. 
-With just a few clicks, you can find the nearest bin to dispose of your waste and keep the city clean.
+City2Table is a unique app that connects food lovers with talented local chefs in their city. With just a few taps, users can browse and book courses made by chefs who will come to their home and cook a delicious meal. As a user, you can choose from a variety of cuisines and dietary preferences, and even customize the menu with the chef. And if you're a chef, you can easily create and list your courses, setting your own prices and availability. City2Table is the perfect way to discover new flavors, support local businesses, and enjoy a one-of-a-kind culinary experience in the comfort of your own home.
 
-
-![Course-Index](https://user-images.githubusercontent.com/122064462/224603257-0d667c06-7fb9-43dd-a049-9101dd0232dd.jpg)
-![Course-Page](https://user-images.githubusercontent.com/122064462/224603262-d2f32ad2-f95f-4a26-80d2-d84b3ec56004.jpg)
-![Create-Course](https://user-images.githubusercontent.com/122064462/224603264-82ba7ab5-6c7f-4364-bb13-ebf76c04e653.jpg)
-
+![Course-Index](https://user-images.githubusercontent.com/51001611/224603361-920cbd4c-2bf3-49cd-bbf3-3b49931cc239.jpg)
+![Course-Page](https://user-images.githubusercontent.com/51001611/224603367-09f5348e-f907-4da7-9d0f-ee11b14c6b15.jpg)
+![Create-Course](https://user-images.githubusercontent.com/51001611/224603373-ceba70a6-8844-47a8-a412-fdb8d35cc33f.jpg)
 
 <br>
-App home: https://www.binfind.online/
+App home: https://city2table.herokuapp.com/
    
 
 ## Getting Started
@@ -29,9 +26,7 @@ Create `.env` file
 ```
 touch .env
 ```
-Inside `.env`, set these variables. For any APIs, see group Slack channel.
-```
-MAPBOX_API_KEY=your_own_mapbox_api_key
+Inside `.env`, set these variables.
 ```
 CLOUDINARY_URL=your_own_cloudinary_url_key
 ```
@@ -41,7 +36,6 @@ CLOUDINARY_URL=your_own_cloudinary_url_key
 rails db:create
 rails db:migrate
 rails db:seed
-rails bin:attach_photos
 ```
 
 ### Run a server
